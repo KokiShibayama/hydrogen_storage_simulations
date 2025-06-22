@@ -19,7 +19,6 @@ int main(int argc, char** argv) {
     double Γ = p_H2 / sqrt(2 * M_PI * m_H2 * k_B * T);
     //double Γ = 9702660584820180992.0;  //desmosで前もって計算
     //printf("n_s: %lf, k_B: %.17ef, T: %lf, p_H2: %lf, m_H2: %lf, Γ: %lf\n", n_s, k_B, T, p_H2, m_H2, Γ);  //確認用
-    //（実行メモ）ここまで問題なし。ただ値が非常に大きいので、間違っているのなら単位とかの問題化も。
   
   //E(エネルギー)の値を別ファイルから持ってくる
 
